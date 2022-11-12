@@ -101,7 +101,7 @@
                 class="bg-white form-control"
               />
             </div>
-            <button class="btn btn-secondary m-1">SUBSCRIBE</button>
+            <button class="footer__btn p-2 m-1">SUBSCRIBE</button>
           </form>
         </div>
         <div class="col-12 col-lg-7 p-5">
@@ -295,5 +295,8 @@ export default {
 }
 .footer__links {
   padding: 0px 50px;
+}
+.footer__btn {
+  background-color: #ecbb52;
 }
 </style>
