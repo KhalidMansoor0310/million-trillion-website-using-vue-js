@@ -85,6 +85,50 @@
       </div>
     </div>
 
+    <div id="review">
+      <div class="font-family-1">
+        <div class="d-flex justify-content-center m-auto review__header-div">
+          <h2>REVIEW</h2>
+        </div>
+        <div class="bg_image row">
+          <div class="reviews col-9 col-md-6 col-lg-5">
+            <h2>"IT WAS AN INCREDIBLE EVENT!"</h2>
+            <p class="text-muted font-family-2" style="text-align: right">
+              - Teddy bakraa
+            </p>
+            <br /><br />
+            <h2>"IT WAS AN INCREDIBLE EVENT!"</h2>
+            <p class="text-muted font-family-2" style="text-align: right">
+              - Teddy bakraa
+            </p>
+            <br /><br />
+            <h2>"IT WAS AN INCREDIBLE EVENT!"</h2>
+            <p class="text-muted font-family-2" style="text-align: right">
+              - Teddy bakraa
+            </p>
+            <br /><br />
+            <h2>"IT WAS AN INCREDIBLE EVENT!"</h2>
+            <p class="text-muted font-family-2" style="text-align: right">
+              - Teddy bakraa
+            </p>
+            <br /><br />
+            <h2>"IT WAS AN INCREDIBLE EVENT!"</h2>
+            <p class="text-muted font-family-2" style="text-align: right">
+              - Teddy bakraa
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-7">
+            <a
+              ><img
+                src="../assets/img/trillion.png"
+                alt="logo"
+                style="width: 100%"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="font-family-1 container-fluid footer">
       <div class="row justify-content-center mb-5">
         <div class="col-12 col-lg-5 p-5">
@@ -298,5 +342,32 @@ export default {
 }
 .footer__btn {
   background-color: #ecbb52;
+}
+.bg_image {
+  background-image: linear-gradient(180deg, #2d2d2d, rgba(45, 45, 45, 0)),
+    url("/static/media/Triton-Millions_KV_prv2_top_sparkle\ 4.145c95b8.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 50%, contain;
+}
+.bg_image .reviews {
+  max-height: 150px;
+  color: #fff;
+  padding-left: 200px;
+  margin-left: 200px;
+  margin-right: -200px;
+  z-index: 200;
+  margin-top: 15%;
+  padding-top: 10px;
+  overflow: scroll;
+}
+.reviews::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+.review__header-div {
+  padding-top: 150px;
+}
+.review__header-div h2 {
+  border-bottom: 1px solid;
 }
 </style>
